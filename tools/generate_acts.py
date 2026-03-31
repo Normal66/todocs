@@ -190,7 +190,7 @@ def _read_dop_json(dop_path: Path | None) -> dict[str, str]:
     defaults = {
         "ACT_DATE": "«26»  февраля  2026   г.",
         "BASIS": "служебная записка от 05.02.2026 №4.3-00444-СЗ",
-        "MOL": "Заместитель начальника отдела, отдел подготовки сведений, Романович Елена Алексеевна",
+        "MOL": "Заместитель начальника отдела, иванов Иван Иванович",
     }
     if dop_path is None or not dop_path.exists():
         return defaults
